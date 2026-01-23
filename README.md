@@ -46,12 +46,10 @@ This dataset provides a realistic, synthetic simulation of global mental health 
 
    ###  Categorical Feature Distributions
     ![Mental Health Risk Distribution](images/mental.png)
-   ![Mental Health Risk distribution](images/mental health risk charts.png)
-   ![Gender by Risk](images/gender by risk.png)
-   ![Gender by Mental Health](images/gender by mental health.png)
-   ![Gender Distribution](images/gender chart.png)
-   ![Work Environment](images/work environment.png)
-   ![Mental Health History](images/Mental Health History.png)
+    ![Gender](images/gender b risk.png)
+    ![Distribution](images/gender by mental health.png)
+    ![Work](images/work environment.png)
+    ![History](images/Mental Health History.png)
    ##  Insights
  - The bar charts display the distribution of employees gender across key categorical features: `mental_health_risk`, `mental health history`, and `seek treatment`.  
 -  **Mental Health Risk:** 59% of the employess have medium risk, while 23.7% pose a high risk.
@@ -72,26 +70,26 @@ This dataset provides a realistic, synthetic simulation of global mental health 
   - `depression score`, `anxiety score`, and `productivity score`, all show very low correlations with `mental healh risk`.
 
    ###  Sleep Hours
-   ![Sleep Hours Distribution](images/sleep distribution.png)
+    ![Sleep](images/sleep distribution.png)
     ## Insights:
     - The histogram shows the sleep pattern of the employees.
     - Sleep hours are more tightly distributed and predictable, with an almost normal distribution. Most patients can be said to have almost a similar sleep pattern at around 6 to 7 hours.
 
     ###  Sleep Hours v Stress Level
-   ![Sleep v Stress Level](images/Sleep v Stress Level.png)
-   ![Sleep v Stress Scatter Plot](images/sleep v stress scatter plot.png)
+    ![SleepvStress](images/Sleep v Stress Level.png)
+    ![SleepvStressPlot](images/sleep v stress scatter plot.png)
     ## Insights:
     - The KDE shows the sleep  and stress level pattern of the respondants.
     - The overlap does not imply correlation, the plot is only to show 2 different features with similar numerical range.
     - With a correlation coefficient of -0.003352 and the scatter plot above, there is clearly no relationship between the sleep hours and stress level in the dataset
 
     ###  Depression v Productivity
-   ![Depression v Productivity](images/Depression v Productivity.png)
+    ![DepressionvProductivity](images/Depression v Productivity.png)
     ## Insights:
     - This clearly shows the inverse relationship between depression and productivity. As depression increases, productivity reduces
 
     ###  Top 5 correlated features with risk
-   ![Top 5 correlated features with Risk](images/Top 5 absolute correlated features.png)
+    ![correlatedRisk](images/Top 5 absolute correlated features.png)
 
 3. **Modelling**  
    - Random Forest Classifier 
@@ -100,13 +98,13 @@ This dataset provides a realistic, synthetic simulation of global mental health 
    - Reflections on performances
 
    ###  Top 5 important features RF
-   ![Top 5 important features using RF](images/Top 5 important features.png)
+    ![importantRF](images/Top 5 important features.png)
 
    ###  RF v Hyperparameter
-   ![RF v Hyperparamater Tuning](images/RF v Hyperparameter RF.png)
+    ![RFvHyperparamater](images/RF v Hyperparameter RF.png)
 
    ###  Model Accuracy
-   ![ML Model Comparison](images/model accuracy.png)
+    ![MLModelComparison](images/model accuracy.png)
    ### Insight
    MODEL PERFORMANCE:
    - Random Forest achieved 97.5% accuracy
