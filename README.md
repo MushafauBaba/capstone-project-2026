@@ -45,6 +45,7 @@ This dataset provides a realistic, synthetic simulation of global mental health 
    - Bar charts, piecharts, and heatmaps to explore trends
 
    ###  Categorical Feature Distributions
+    ![Mental Health Risk Distribution](images/mental.png)
    ![Mental Health Risk distribution](images/mental health risk charts.png)
    ![Gender by Risk](images/gender by risk.png)
    ![Gender by Mental Health](images/gender by mental health.png)
@@ -193,7 +194,7 @@ to identify and address missing or duplicate data effectively.
   *An interactive dashboard visualising key HR insights such as attrition trends, job satisfaction, and department-wise performance.*
 
 - **Jupyter Notebook**:  
-   [Workplace Mental Health Analysis Notebook](notebooks/jupyter_notebooks/LBSL.ipynb)  
+   [Workplace Mental Health Analysis Notebook](notebooks/jupyter_notebooks/workplace mental health.ipynb)  
   *Complete analysis including data cleaning, EDA, visualisations, and machine learning modeling using Python.*
 
 - **GitHub Repository**:  
