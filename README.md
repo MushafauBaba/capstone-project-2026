@@ -45,7 +45,7 @@ This dataset provides a realistic, synthetic simulation of global mental health 
    - Bar charts, piecharts, and heatmaps to explore trends
 
    ###  Categorical Feature Distributions
-    ![Mental Health Risk Distribution](images/mental.png)
+    ![Mental Health Risk Distribution][def]
     ![Gender](images/gender b risk.png)
     ![Distribution](images/gender by mental health.png)
     ![Work](images/work environment.png)
@@ -89,7 +89,7 @@ This dataset provides a realistic, synthetic simulation of global mental health 
     - This clearly shows the inverse relationship between depression and productivity. As depression increases, productivity reduces
 
     ###  Top 5 correlated features with risk
-    ![correlatedRisk](images/Top 5 absolute correlated features.png)
+  ![correlatedRisk](images/Top 5 absolute correlated features.png)
 
 3. **Modelling**  
    - Random Forest Classifier 
@@ -98,13 +98,13 @@ This dataset provides a realistic, synthetic simulation of global mental health 
    - Reflections on performances
 
    ###  Top 5 important features RF
-    ![importantRF](images/Top 5 important features.png)
+  ![importantRF](images/Top 5 important features.png)
 
    ###  RF v Hyperparameter
-    ![RFvHyperparamater](images/RF v Hyperparameter RF.png)
+  ![RFvHyperparamater](images/RF v Hyperparameter RF.png)
 
    ###  Model Accuracy
-    ![MLModelComparison](images/model accuracy.png)
+  ![MLModelComparison](images/model accuracy.png)
    ### Insight
    MODEL PERFORMANCE:
    - Random Forest achieved 97.5% accuracy
@@ -192,7 +192,7 @@ to identify and address missing or duplicate data effectively.
   *An interactive dashboard visualising key HR insights such as attrition trends, job satisfaction, and department-wise performance.*
 
 - **Jupyter Notebook**:  
-   [Workplace Mental Health Analysis Notebook](notebooks/jupyter_notebooks/workplace mental health.ipynb)  
+  [WorkplaceNotebook](notebooks/jupyter_notebooks/workplace mental health.ipynb)  
   *Complete analysis including data cleaning, EDA, visualisations, and machine learning modeling using Python.*
 
 - **GitHub Repository**:  
@@ -205,3 +205,6 @@ to identify and address missing or duplicate data effectively.
 - **Tools Used:** Python, VSCode, GitHub, Streamlit and Heroku
 - **Project Contributors:**  
   Special thanks to my tutor: John at Code Institute, my peers for timely assistance and feedback and mentors Neil, Paul and Emma at Code Institue for their guidance and support throughout this capstone project.
+
+
+[def]: images/mental.png
