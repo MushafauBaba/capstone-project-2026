@@ -188,7 +188,7 @@ to identify and address missing or duplicate data effectively.
 ## Deployment & Accessibility
 
 - **Streamlit App**:  
-  [Workplace Mental Health – Streamlit (Web Link)](https://app.powerbi.com/groups/me/reports/Dashboard/CapstoneHRPBVisual.pbix)  
+  [Workplace Mental Health – Streamlit (Web Link)](https://dashboard.heroku.com/apps/workplacementalhealth/deploy/github)  
   *An interactive dashboard visualising key HR insights such as attrition trends, job satisfaction, and department-wise performance.*
 
 - **Jupyter Notebook**:  

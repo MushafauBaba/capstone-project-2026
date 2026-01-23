@@ -46,7 +46,7 @@ filtered_df = df[
 ]
 
 # Create tabs
-tab1, tab2, tab3, tab4 = st.tabs(["Overview", "Prediction Interface", "ML Models and Comparison", "Data"])
+tab1, tab2, tab3, tab4 = st.tabs(["Overview", "Visualisation", "ML Models and Prediciton", "Data"])
 
 with tab1:
     # Basic info
