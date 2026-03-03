@@ -1,5 +1,3 @@
-setuptools
-python==3.12.8
 numpy==1.26.1
 pandas==2.1.1
 matplotlib==3.8.0
