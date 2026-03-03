@@ -1,4 +1,5 @@
-setuptools
+setuptools==65.5.0
+wheel==0.38.4
 numpy==1.26.1
 pandas==2.1.1
 matplotlib==3.8.0
