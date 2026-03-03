@@ -188,7 +188,7 @@ to identify and address missing or duplicate data effectively.
 ## Deployment & Accessibility
 
 - **Streamlit App**:  
-  [Workplace Mental Health – Streamlit (Web Link)](https://mentalhealth-across-workplace.streamlit.app/)  
+  [Workplace Mental Health – Streamlit (Web Link)](https://mentalhealth-workplace-project.streamlit.app/)  
   *An interactive application visualising and predicting risk of mental health given factors acros workplace.*
 
 - **Jupyter Notebook**:  
